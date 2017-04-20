@@ -6,7 +6,7 @@ docker run -v $PWD:/app -w /app microsoft/dotnet:latest /bin/sh -c 'dotnet resto
 ```
 
 ## Using .NET Core CLI
-Install .NET Core CLI from https://www.microsoft.com/net/download/core
+Install .NET Core CLI using this guide https://www.microsoft.com/net/core#macos
 
 ```
 docker restore
