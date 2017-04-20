@@ -12,6 +12,6 @@ docker run -v $PWD:/app -w /app microsoft/dotnet:latest /bin/sh -c 'dotnet resto
 Install .NET Core CLI using this guide https://www.microsoft.com/net/core#macos
 
 ```
-docker restore
-docker lambda package -c Debug -f netcoreapp1.1
+dotnet restore
+dotnet lambda package -c Debug -f netcoreapp1.1
 ```
