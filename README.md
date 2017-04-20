@@ -7,14 +7,14 @@ Clone this repository
 
 cd to the project folder
 
-### Using Docker
+### Method 1: Docker
 
 ```
 docker build -t lambdaexample .
 docker run -v $(PWD):/app lambdaexample
 ```
 
-### Using .NET Core CLI
+### Method 2: .NET Core CLI
 Install .NET Core CLI using this guide https://www.microsoft.com/net/core
 
 ```
