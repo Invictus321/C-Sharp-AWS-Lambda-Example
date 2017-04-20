@@ -19,7 +19,7 @@ Using either method, you should end up with a .zip file at ./bin/Debug/netcoreap
 
 Upload this zip file to AWS Lambda
 
-The handler function should be "lambda::lambda.Hello::MyHandler"
+The handler function should be "LambdaExample::lambda.Hello::MyHandler"
 
 Sample lambda test data:
 
