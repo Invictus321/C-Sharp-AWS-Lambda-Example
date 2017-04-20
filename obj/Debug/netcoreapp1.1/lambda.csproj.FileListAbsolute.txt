@@ -1,0 +1,16 @@
+/Users/davidwales/csharp/lambda/bin/Debug/netcoreapp1.1/lambda.deps.json
+/Users/davidwales/csharp/lambda/bin/Debug/netcoreapp1.1/lambda.runtimeconfig.json
+/Users/davidwales/csharp/lambda/bin/Debug/netcoreapp1.1/lambda.runtimeconfig.dev.json
+/Users/davidwales/csharp/lambda/obj/Debug/netcoreapp1.1/lambda.AssemblyInfo.cs
+/Users/davidwales/csharp/lambda/bin/Debug/netcoreapp1.1/lambda.dll
+/Users/davidwales/csharp/lambda/bin/Debug/netcoreapp1.1/lambda.pdb
+/Users/davidwales/csharp/lambda/obj/Debug/netcoreapp1.1/lambda.dll
+/Users/davidwales/csharp/lambda/obj/Debug/netcoreapp1.1/lambda.pdb
+/app/bin/Debug/netcoreapp1.1/lambda.deps.json
+/app/bin/Debug/netcoreapp1.1/lambda.runtimeconfig.json
+/app/bin/Debug/netcoreapp1.1/lambda.runtimeconfig.dev.json
+/app/bin/Debug/netcoreapp1.1/lambda.dll
+/app/bin/Debug/netcoreapp1.1/lambda.pdb
+/app/obj/Debug/netcoreapp1.1/lambda.AssemblyInfo.cs
+/app/obj/Debug/netcoreapp1.1/lambda.dll
+/app/obj/Debug/netcoreapp1.1/lambda.pdb
