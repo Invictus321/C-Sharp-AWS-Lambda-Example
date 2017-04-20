@@ -15,3 +15,7 @@ Install .NET Core CLI using this guide https://www.microsoft.com/net/core#macos
 dotnet restore
 dotnet lambda package -c Debug -f netcoreapp1.1
 ```
+
+Using either method, you should end up with the .zip file at ./bin/Debug/netcoreapp1.1/C-Sharp-AWS-Lambda-Example.zip
+
+Upload this zip file to AWS Lambda
