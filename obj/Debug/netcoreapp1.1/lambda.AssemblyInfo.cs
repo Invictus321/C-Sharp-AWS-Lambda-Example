@@ -2,7 +2,6 @@
 
 using System;
 using System.Reflection;
-using Amazon.Lambda.Core;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("lambda")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
@@ -12,4 +11,3 @@ using Amazon.Lambda.Core;
 [assembly: System.Reflection.AssemblyProductAttribute("lambda")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lambda")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
-[assembly:LambdaSerializer(typeof(Amazon.Lambda.Serialization.Json.JsonSerializer))]

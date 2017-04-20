@@ -19,3 +19,13 @@ dotnet lambda package -c Debug -f netcoreapp1.1
 Using either method, you should end up with the .zip file at ./bin/Debug/netcoreapp1.1/C-Sharp-AWS-Lambda-Example.zip
 
 Upload this zip file to AWS Lambda
+
+The handler function should be "lambda::lambda.Hello::MyHandler"
+
+Sample lambda test data:
+
+```
+{
+    "InputNum": 3
+}
+```

@@ -7292,16 +7292,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/davidwales/csharp/lambda/lambda.csproj",
+      "projectUniqueName": "/Users/davidwales/csharp/C-Sharp-AWS-Lambda-Example/lambda.csproj",
       "projectName": "lambda",
-      "projectPath": "/Users/davidwales/csharp/lambda/lambda.csproj",
-      "outputPath": "/Users/davidwales/csharp/lambda/obj/",
+      "projectPath": "/Users/davidwales/csharp/C-Sharp-AWS-Lambda-Example/lambda.csproj",
+      "outputPath": "/Users/davidwales/csharp/C-Sharp-AWS-Lambda-Example/obj/",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/lambda.dll": "/Users/davidwales/csharp/lambda/bin/placeholder/netcoreapp1.1/lambda.dll"
+        "lib/netcoreapp1.1/lambda.dll": "/Users/davidwales/csharp/C-Sharp-AWS-Lambda-Example/bin/placeholder/netcoreapp1.1/lambda.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {
