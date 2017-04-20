@@ -3,21 +3,30 @@ This example shows how to get it working with the latest .NET Core tools.
 
 ## Creating the zip file for AWS Lambda
 
-### Using .NET Core CLI
-Install .NET Core CLI using this guide https://www.microsoft.com/net/core
-
 Clone this repository
 
 cd to the project folder
+
+### Using Docker
+
+```
+docker build -t lambdaexample .
+docker run -v $(PWD):/app lambdaexample
+```
+
+### Using .NET Core CLI
+Install .NET Core CLI using this guide https://www.microsoft.com/net/core
 
 ```
 dotnet restore
 dotnet lambda package -c Debug -f netcoreapp1.1
 ```
 
+## Uploading the zip file
+
 Using either method, you should end up with a .zip file at ./bin/Debug/netcoreapp1.1/
 
-Upload this zip file to AWS Lambda
+Upload this zip file to your AWS Lambda function
 
 The handler function should be "LambdaExample::lambda.Hello::MyHandler"
 
