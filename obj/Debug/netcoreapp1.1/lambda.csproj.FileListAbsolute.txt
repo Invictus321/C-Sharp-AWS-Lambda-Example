@@ -1,8 +1,0 @@
-/Users/davidwales/csharp/C-Sharp-AWS-Lambda-Example/bin/Debug/netcoreapp1.1/lambda.deps.json
-/Users/davidwales/csharp/C-Sharp-AWS-Lambda-Example/bin/Debug/netcoreapp1.1/lambda.runtimeconfig.json
-/Users/davidwales/csharp/C-Sharp-AWS-Lambda-Example/bin/Debug/netcoreapp1.1/lambda.runtimeconfig.dev.json
-/Users/davidwales/csharp/C-Sharp-AWS-Lambda-Example/bin/Debug/netcoreapp1.1/lambda.dll
-/Users/davidwales/csharp/C-Sharp-AWS-Lambda-Example/bin/Debug/netcoreapp1.1/lambda.pdb
-/Users/davidwales/csharp/C-Sharp-AWS-Lambda-Example/obj/Debug/netcoreapp1.1/lambda.AssemblyInfo.cs
-/Users/davidwales/csharp/C-Sharp-AWS-Lambda-Example/obj/Debug/netcoreapp1.1/lambda.dll
-/Users/davidwales/csharp/C-Sharp-AWS-Lambda-Example/obj/Debug/netcoreapp1.1/lambda.pdb
