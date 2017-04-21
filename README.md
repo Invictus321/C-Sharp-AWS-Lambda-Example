@@ -1,4 +1,7 @@
-The current AWS docs for .NET Lambda functions is wrong. They use the package.json method, which is now deprecated.
+The current AWS docs for .NET Lambda functions are wrong. 
+
+They use the package.json method, which is now deprecated.
+
 This example shows how to get it working with the latest .NET Core tools.
 
 ## Creating the zip file for AWS Lambda
