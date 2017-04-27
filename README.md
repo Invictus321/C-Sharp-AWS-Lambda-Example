@@ -37,6 +37,8 @@ Sample lambda test data:
 
 ```
 {
-    "InputNum": 3
+    "Body": "Howdy"
 }
 ```
+
+You can also hit this function with API gateway
