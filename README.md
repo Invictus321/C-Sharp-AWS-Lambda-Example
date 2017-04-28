@@ -11,7 +11,7 @@ Clone this repository
 ### Method 1: Docker
 
 ```
-docker build -f DockerDeploy -t lambdaexample .
+docker build -f Dockerfile.deploy -t lambdaexample .
 docker run -v $(PWD)/LambdaExample:/app lambdaexample
 ```
 
@@ -47,7 +47,7 @@ You can also hit this function with Amazon API Gateway
 ### Method 1: Docker
 
 ```
-docker build -f DockerTest -t lambdatest .
+docker build -f Dockerfile.test -t lambdatest .
 docker run lambdatest
 ```
 
