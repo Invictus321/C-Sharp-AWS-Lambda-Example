@@ -1,0 +1,7 @@
+FROM microsoft/dotnet:latest
+RUN mkdir app
+COPY LambdaExample /app/LambdaExample
+COPY LambdaExample.Tests /app/LambdaExample.Tests
+WORKDIR /app/LambdaExample.Tests
+RUN dotnet restore
+CMD dotnet test

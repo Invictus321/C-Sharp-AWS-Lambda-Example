@@ -8,13 +8,11 @@ This example shows how to get it working with the latest .NET Core tools.
 
 Clone this repository
 
-cd to the project folder
-
 ### Method 1: Docker
 
 ```
-docker build -t lambdaexample .
-docker run -v $(PWD):/app lambdaexample
+docker build -f DockerDeploy -t lambdaexample .
+docker run -v $(PWD)/LambdaExample:/app lambdaexample
 ```
 
 ### Method 2: .NET Core CLI
@@ -42,3 +40,21 @@ Sample lambda test data:
 ```
 
 You can also hit this function with API gateway
+
+## Unit tests
+
+### Method 1: Docker
+
+```
+docker build -f DockerTest -t lambdatest .
+docker run lambdatest
+```
+
+### Method 2: .NET Core CLI
+Install .NET Core CLI using this guide https://www.microsoft.com/net/core
+
+```
+cd LambdaExample.Tests
+dotnet restore
+dotnet test
+```

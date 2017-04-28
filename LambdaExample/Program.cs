@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Amazon.Lambda.Core;
 
 namespace lambda {
-    class Hello {
+    public class Hello {
         static void Main(string[] args) {}
         
         [LambdaSerializer(typeof(Amazon.Lambda.Serialization.Json.JsonSerializer))]
