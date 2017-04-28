@@ -19,13 +19,14 @@ docker run -v $(PWD)/LambdaExample:/app lambdaexample
 Install .NET Core CLI using this guide https://www.microsoft.com/net/core
 
 ```
+cd LambdaExample
 dotnet restore
 dotnet lambda package -c Debug -f netcoreapp1.1
 ```
 
 ## Uploading the zip file
 
-Using either method, you should end up with a .zip file at ./bin/Debug/netcoreapp1.1/
+Using either method, you should end up with a .zip file at ./LambdaExample/bin/Debug/netcoreapp1.1/
 
 Upload this zip file to your AWS Lambda function
 
@@ -39,7 +40,7 @@ Sample lambda test data:
 }
 ```
 
-You can also hit this function with API gateway
+You can also hit this function with Amazon API Gateway
 
 ## Unit tests
 
